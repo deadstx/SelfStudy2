@@ -9,11 +9,8 @@ class ElectronsCalculator {
                 total += 2;
             } else if (die === 5) {
                 total += 4;
-            } else if (die === 2 || die === 1 || die === 4 || die === 6 || die === 7 || die === 0) {
-                total += 0;
             }
         }
-
         return total;
     }
 }
